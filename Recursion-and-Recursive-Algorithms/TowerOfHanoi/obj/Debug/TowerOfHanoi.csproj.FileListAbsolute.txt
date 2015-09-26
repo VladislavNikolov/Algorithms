@@ -1,0 +1,6 @@
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe.config
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\TowerOfHanoi\bin\Debug\TowerOfHanoi.pdb
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\TowerOfHanoi\obj\Debug\TowerOfHanoi.csprojResolveAssemblyReference.cache
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\TowerOfHanoi\obj\Debug\TowerOfHanoi.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\TowerOfHanoi\obj\Debug\TowerOfHanoi.pdb

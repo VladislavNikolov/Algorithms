@@ -1,0 +1,5 @@
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\CombinationsWithRepetition\bin\Debug\CombinationsWithRepetition.exe.config
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\CombinationsWithRepetition\bin\Debug\CombinationsWithRepetition.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\CombinationsWithRepetition\bin\Debug\CombinationsWithRepetition.pdb
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\CombinationsWithRepetition\obj\Debug\CombinationsWithRepetition.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\CombinationsWithRepetition\obj\Debug\CombinationsWithRepetition.pdb

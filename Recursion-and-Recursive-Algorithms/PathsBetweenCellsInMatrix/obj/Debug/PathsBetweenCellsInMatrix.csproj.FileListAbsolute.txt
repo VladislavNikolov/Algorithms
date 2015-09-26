@@ -1,0 +1,6 @@
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\PathsBetweenCellsInMatrix\bin\Debug\PathsBetweenCellsInMatrix.exe.config
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\PathsBetweenCellsInMatrix\obj\Debug\PathsBetweenCellsInMatrix.csprojResolveAssemblyReference.cache
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\PathsBetweenCellsInMatrix\bin\Debug\PathsBetweenCellsInMatrix.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\PathsBetweenCellsInMatrix\bin\Debug\PathsBetweenCellsInMatrix.pdb
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\PathsBetweenCellsInMatrix\obj\Debug\PathsBetweenCellsInMatrix.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\PathsBetweenCellsInMatrix\obj\Debug\PathsBetweenCellsInMatrix.pdb

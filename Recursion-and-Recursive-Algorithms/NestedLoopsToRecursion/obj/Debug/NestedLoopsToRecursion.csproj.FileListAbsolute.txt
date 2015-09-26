@@ -1,0 +1,6 @@
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\NestedLoopsToRecursion\bin\Debug\NestedLoopsToRecursion.exe.config
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\NestedLoopsToRecursion\bin\Debug\NestedLoopsToRecursion.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\NestedLoopsToRecursion\bin\Debug\NestedLoopsToRecursion.pdb
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\NestedLoopsToRecursion\obj\Debug\NestedLoopsToRecursion.csprojResolveAssemblyReference.cache
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\NestedLoopsToRecursion\obj\Debug\NestedLoopsToRecursion.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\NestedLoopsToRecursion\obj\Debug\NestedLoopsToRecursion.pdb

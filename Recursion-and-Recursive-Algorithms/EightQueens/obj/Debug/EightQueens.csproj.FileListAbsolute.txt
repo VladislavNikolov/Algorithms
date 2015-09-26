@@ -1,0 +1,7 @@
+D:\SoftUni\Algorithms\Recursion and Recursive Algorithms\Recursion-and-Recursive-Algorithms\EightQueens\bin\Debug\EightQueens.exe.config
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\EightQueens\bin\Debug\EightQueens.exe.config
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\EightQueens\bin\Debug\EightQueens.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\EightQueens\bin\Debug\EightQueens.pdb
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\EightQueens\obj\Debug\EightQueens.csprojResolveAssemblyReference.cache
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\EightQueens\obj\Debug\EightQueens.exe
+D:\SoftUni\Algorithms\Recursion-and-Recursive-Algorithms\EightQueens\obj\Debug\EightQueens.pdb
