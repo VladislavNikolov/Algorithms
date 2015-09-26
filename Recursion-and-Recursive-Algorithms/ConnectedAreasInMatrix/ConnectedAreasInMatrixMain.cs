@@ -5,6 +5,7 @@ namespace ConnectedAreasInMatrix
 {
     using System;
     using System.Collections.Generic;
+    using System.Security.Cryptography;
 
     public class ConnectedAreasInMatrixMain
     {
@@ -12,7 +13,7 @@ namespace ConnectedAreasInMatrix
         private static int matrixCols;
         private static char[][] matrix;
         private static int connectedAreaSize;
-        private static SortedSet<ConnectedArea> areasFound = new SortedSet<ConnectedArea>();
+        private static SortedSet<ConnectedArea> connectedAreasFound = new SortedSet<ConnectedArea>();
 
         public static void Main()
         {
@@ -28,9 +29,9 @@ namespace ConnectedAreasInMatrix
 
             FindAreaStart();
 
-            Console.WriteLine("Total areas found: {0}", areasFound.Count);
+            Console.WriteLine("Total areas found: {0}", connectedAreasFound.Count);
             int areaNumber = 0;
-            foreach (ConnectedArea area in areasFound.Reverse())
+            foreach (ConnectedArea area in connectedAreasFound.Reverse())
             {
                 areaNumber++;
                 Console.WriteLine("Area #{0} at ({1}, {2}), size: {3}", areaNumber, area.FirstRow, area.FirstCol, area.Size);
@@ -57,7 +58,11 @@ namespace ConnectedAreasInMatrix
                             areaFound = true;
                             connectedAreaSize = 0;
                             FindConnecedArea(row, col);
-                            areasFound.Add(new ConnectedArea(row, col, connectedAreaSize));
+                            if (connectedAreaSize >= 2)
+                            {
+                                connectedAreasFound.Add(new ConnectedArea(row, col, connectedAreaSize));
+                            }
+
                             break;
                         }
                     }
