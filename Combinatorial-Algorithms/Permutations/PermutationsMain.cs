@@ -23,7 +23,7 @@ namespace Permutations
         {
             if (startIndex >= permutation.Length - 1)
             {
-                Console.WriteLine(string.Join(", ", permutation));
+                //Console.WriteLine(string.Join(", ", permutation));
                 countOfPermutations++;
             }
             else

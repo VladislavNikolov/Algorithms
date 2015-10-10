@@ -1,0 +1,6 @@
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\Permutations\bin\Debug\Permutations.exe.config
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\Permutations\bin\Debug\Permutations.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\Permutations\bin\Debug\Permutations.pdb
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\Permutations\obj\Debug\Permutations.csprojResolveAssemblyReference.cache
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\Permutations\obj\Debug\Permutations.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\Permutations\obj\Debug\Permutations.pdb

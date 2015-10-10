@@ -1,0 +1,6 @@
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateCombinationsIteratively\bin\Debug\GenerateCombinationsIteratively.exe.config
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateCombinationsIteratively\bin\Debug\GenerateCombinationsIteratively.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateCombinationsIteratively\bin\Debug\GenerateCombinationsIteratively.pdb
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateCombinationsIteratively\obj\Debug\GenerateCombinationsIteratively.csprojResolveAssemblyReference.cache
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateCombinationsIteratively\obj\Debug\GenerateCombinationsIteratively.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateCombinationsIteratively\obj\Debug\GenerateCombinationsIteratively.pdb

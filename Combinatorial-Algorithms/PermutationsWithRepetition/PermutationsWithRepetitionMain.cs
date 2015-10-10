@@ -1,188 +1,44 @@
 ﻿namespace PermutationsWithRepetition
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
 
-    class PermutationsWithRepetitionMain
+    internal class PermutationsWithRepetitionMain
     {
-        static int totalPermutations = 0;
-
-        static void Main()
+        private static void Main()
         {
-            //int[] set = new int[] { 1, 2, 3 };
-            int[] set = new int[] { 1, 3, 3 };
-            //int[] set = new int[] { 1, 2, 3, 4 };
-            //int[] set = new int[] { 1, 3, 5, 5 };
-            //int[] set = new int[] { 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
-            //int[] set = new int[] { 5, 1, 3, 5, 5 };
-            //int[] set = new int[] { 1, 5, 5, 7, 7, 7, 1 };
+            int[] arr = { 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
+            int start = 0;
+            int end = arr.Length - 1;
 
-            OccurrencesCounter<int> setCounter = new OccurrencesCounter<int>();
-            for (var i = 0; i < set.Length; i++)
-            {
-                setCounter.Add(set[i]);
-            }
-            Console.WriteLine(setCounter.ToString());
-
-            int[] arr = new int[set.Length];
-            bool[] busy = new bool[set.Length];
-            permute(setCounter, set.Length, 0, 0, -1, arr, busy);
-            Console.WriteLine("Total Items in Set: {0}", set.Length);
-            Console.WriteLine("Total Permutations: {0}", totalPermutations);
+            GeneratePermWithRep(arr, start, end);
         }
 
-        static void permute(OccurrencesCounter<int> set, int n, int numberIndex, int numberOccurenceIndex, int numberLastIndexPlacement, int[] arr, bool[] busy)
+        private static void GeneratePermWithRep(int[] array, int start, int end)
         {
-            if (numberIndex >= set.Count)
+            Console.WriteLine("{{{0}}}", string.Join(", ", array));
+
+            for (int left = end - 1; left >= start; left--)
             {
-                Print(arr);
-                totalPermutations++;
-            }
-            else
-            {
-                KeyValuePair<int, int> currNumber = set[numberIndex];
-                if (numberOccurenceIndex >= currNumber.Value)
+                for (int right = left + 1; right <= end; right++)
                 {
-                    permute(set, n, numberIndex + 1, 0, -1, arr, busy);
-                }
-                else
-                {
-                    var start = Math.Max(numberOccurenceIndex, numberLastIndexPlacement);
-                    var end = n + numberOccurenceIndex - currNumber.Value + 1;
-                    for (var i = start; i < end; i++)
+                    if (array[left] != array[right])
                     {
-                        if (busy[i]) continue;
-                        arr[i] = currNumber.Key;
-                        busy[i] = true;
-                        permute(set, n, numberIndex, numberOccurenceIndex + 1, i, arr, busy);
-                        busy[i] = false;
+                        int temp = array[left];
+                        array[left] = array[right];
+                        array[right] = temp;
+
+                        GeneratePermWithRep(array, left + 1, end);
                     }
                 }
-            }
-        }
 
-        private static void Print(int[] array)
-        {
-            Console.WriteLine("{{ {0} }}", string.Join(", ", array));
-        }
-    }
-
-    public class OccurrencesCounter<T>
-    {
-        public class ListNode<T>
-        {
-            public T Value { get; private set; }
-            public int OccurrencesCount { get; set; }
-            public ListNode<T> NextNode { get; set; }
-            public ListNode()
-            {
-            }
-            public ListNode(T value, ListNode<T> next)
-            {
-                this.Value = value;
-                this.NextNode = next;
-                this.OccurrencesCount = 0;
-            }
-        }
-
-        private ListNode<T> Head;
-        private ListNode<T> Tail;
-        public int Count { get; private set; }
-
-        public void Add(T value)
-        {
-            if (this.Count == 0)
-            {
-                var node = new ListNode<T>(value, null);
-                node.OccurrencesCount++;
-                this.Head = node;
-                this.Tail = node;
-                this.Count++;
-            }
-            else
-            {
-                bool found = false;
-                ListNode<T> temp = null;
-                for (var i = 0; i < this.Count; i++)
+                int firstElement = array[left];
+                for (int i = left; i <= end - 1; i++)
                 {
-                    if (i == 0) temp = this.Head;
-
-                    if (value.Equals(temp.Value))
-                    {
-                        temp.OccurrencesCount++;
-                        found = true;
-                        break;
-                    }
-                    temp = temp.NextNode;
+                    array[i] = array[i + 1];
                 }
 
-                if (found == false)
-                {
-                    var node = new ListNode<T>(value, null);
-                    node.OccurrencesCount++;
-                    this.Tail.NextNode = node;
-                    this.Tail = node;
-                    this.Count++;
-                }
+                array[end] = firstElement;
             }
-        }
-
-        public Dictionary<T, int> ToDictionary()
-        {
-            Dictionary<T, int> dict = new Dictionary<T, int>();
-            ListNode<T> temp = null;
-            for (var i = 0; i < this.Count; i++)
-            {
-                if (i == 0)
-                {
-                    temp = this.Head;
-                }
-                dict[temp.Value] = temp.OccurrencesCount;
-                temp = temp.NextNode;
-            }
-            return dict;
-        }
-
-        public KeyValuePair<T, int> this[int index]
-        {
-            get
-            {
-                if (index >= this.Count)
-                {
-                    throw new IndexOutOfRangeException("OccurrencesCounter indexer problem.");
-                }
-                ListNode<T> temp = null;
-                for (var i = 0; i < this.Count; i++)
-                {
-                    if (i == 0)
-                    {
-                        temp = this.Head;
-                    }
-                    if (i == index)
-                    {
-                        return new KeyValuePair<T, int>(temp.Value, temp.OccurrencesCount);
-                    }
-                    temp = temp.NextNode;
-                }
-                return new KeyValuePair<T, int>();
-            }
-        }
-
-        public override string ToString()
-        {
-            StringBuilder str = new StringBuilder();
-            ListNode<T> temp = new ListNode<T>();
-            for (var i = 0; i < this.Count; i++)
-            {
-                if (i == 0)
-                {
-                    temp = this.Head;
-                }
-                str.Append(string.Format("{0} => {1}\n", temp.Value, temp.OccurrencesCount));
-                temp = temp.NextNode;
-            }
-            return str.ToString();
         }
     }
 }

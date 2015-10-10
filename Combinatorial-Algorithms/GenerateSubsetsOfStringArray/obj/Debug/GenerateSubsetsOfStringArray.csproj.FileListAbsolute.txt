@@ -1,0 +1,5 @@
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateSubsetsOfStringArray\bin\Debug\GenerateSubsetsOfStringArray.exe.config
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateSubsetsOfStringArray\bin\Debug\GenerateSubsetsOfStringArray.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateSubsetsOfStringArray\bin\Debug\GenerateSubsetsOfStringArray.pdb
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateSubsetsOfStringArray\obj\Debug\GenerateSubsetsOfStringArray.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateSubsetsOfStringArray\obj\Debug\GenerateSubsetsOfStringArray.pdb

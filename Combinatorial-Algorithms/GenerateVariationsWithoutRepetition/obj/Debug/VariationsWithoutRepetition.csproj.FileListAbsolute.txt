@@ -1,0 +1,6 @@
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\VariationsWithoutRepetition\bin\Debug\VariationsWithoutRepetition.exe.config
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\VariationsWithoutRepetition\bin\Debug\VariationsWithoutRepetition.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\VariationsWithoutRepetition\bin\Debug\VariationsWithoutRepetition.pdb
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\VariationsWithoutRepetition\obj\Debug\VariationsWithoutRepetition.csprojResolveAssemblyReference.cache
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\VariationsWithoutRepetition\obj\Debug\VariationsWithoutRepetition.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\VariationsWithoutRepetition\obj\Debug\VariationsWithoutRepetition.pdb

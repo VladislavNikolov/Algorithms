@@ -1,0 +1,6 @@
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\VariationsWithoutRepetition\bin\Debug\GenerateVariationsWithoutRepetition.exe.config
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateVariationsWithoutRepetition\bin\Debug\GenerateVariationsWithoutRepetition.exe.config
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateVariationsWithoutRepetition\bin\Debug\GenerateVariationsWithoutRepetition.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateVariationsWithoutRepetition\bin\Debug\GenerateVariationsWithoutRepetition.pdb
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateVariationsWithoutRepetition\obj\Debug\GenerateVariationsWithoutRepetition.exe
+D:\SoftUni\Algorithms\Combinatorial-Algorithms\GenerateVariationsWithoutRepetition\obj\Debug\GenerateVariationsWithoutRepetition.pdb
