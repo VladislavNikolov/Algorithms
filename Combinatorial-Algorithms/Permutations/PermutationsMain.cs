@@ -16,7 +16,7 @@ namespace Permutations
 
             Permute(permutation);
 
-            Console.WriteLine("Total permutations: {0}", countOfPermutations);
+            Console.WriteLine("Total permutation: {0}", countOfPermutations);
         }
 
         private static void Permute(int[] permutation, int startIndex = 0)
