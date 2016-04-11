@@ -12,7 +12,7 @@
 
             foreach (int[] combination in GetCombinations(n, k))
             {
-                Console.WriteLine(string.Join(", ", combination));
+                Console.WriteLine(string.Join(",  ", combination));
             }
         }
 
