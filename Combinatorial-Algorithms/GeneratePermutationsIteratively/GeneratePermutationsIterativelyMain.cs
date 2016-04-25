@@ -8,7 +8,6 @@
         {
             Console.Write("Input N:");
             int n = int.Parse(Console.ReadLine());
-            
 
             int key = n - 1;
             int[] currentPermutation = new int[n];
