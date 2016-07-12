@@ -10,7 +10,7 @@
             int n = int.Parse(Console.ReadLine());
             int k = int.Parse(Console.ReadLine());
 
-            foreach (int[] combination in GetCombinations(n, k))
+            foreach (int[]  combination in GetCombinations(n, k))
             {
                 Console.WriteLine(string.Join(",  ", combination));
             }
